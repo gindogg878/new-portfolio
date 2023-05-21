@@ -1,0 +1,58 @@
+body {
+  padding-top: 60px;
+  background-color: #566b76;
+  color: #9ad876;
+}
+
+body p {
+  color: #fced72;
+}
+
+a {
+  color: #e56878;
+}
+
+a:hover {
+  font-size: larger;
+  text-transform: none;
+  /* text-decoration: none; */
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+.container h5 {
+  color: #e56878;
+  margin-bottom: 35px;
+}
+
+/* Add more custom styles as needed */
+
+.list-group-item {
+  border: none;
+  background-color: #273136;
+  color: #fced72;
+  /* width: 500px; */
+}
+.list-group-item:hover {
+  font-size: x-large;
+}
+
+.card {
+  background-color: #273136;
+}
+
+.card-img-top {
+  width: 322px;
+  height: 298px;
+}

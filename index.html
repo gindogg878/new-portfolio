@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Gino's Portfolio</title>
+  </head>
+  <body>
+    <!------------------- NavBar section ----------------------->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">GT</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <!-- <a class="nav-link" href="#home">Home</a> -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-font" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-------------------- Main Container section ----------------->
+    <section id="home">
+      <div class="container">
+        <h1>Hello. My name is Gino.</h1>
+        <h4>I'm a Software Engineer looking for a place I can call work.</h4>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2>Technical Skills</h2>
+        <h5>Some skills I picked along the way.</h5>
+        <div class="container text-center">
+            <div class="row align-items-start">
+              <div class="col">
+                <ul class="list-group">
+                    <li class="list-group-item">JavaScript</li>
+                    <li class="list-group-item">Html</li>
+                    <li class="list-group-item">Css</li>
+                    <li class="list-group-item">Bootstrap</li>
+                  </ul>
+              </div>
+              <div class="col">
+                <ul class="list-group">
+                    <li class="list-group-item">MongoDB</li>
+                    <li class="list-group-item">Express</li>
+                    <li class="list-group-item">React</li>
+                    <li class="list-group-item">NodeJs</li>   
+                </ul>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2>My Projects</h2>
+        <h5>Here are some of my projects.</h5>
+        <div class="container text-center">
+            <div class="row align-items-start">
+              <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src='./Guess.png' class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Guess the Image</h5>
+                      <p class="card-text">My first project was working with DOM manipulation and javaScript. I created a game that captured mouse clicks and changed the page as well as used forms to capture data and check its value.</p>
+                      <a href="https://gindogg878.github.io/GuessTheImage/" class="btn btn-primary">Play Game</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="Blog.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Comic Blog</h5>
+                      <p class="card-text">I created a comicbook blog that used a 3rd party api to get a list of objects (comics) and display them based on title as well as list all comics with a specific comicbook characters name.</p>
+                      <a href="https://ginoscomicbookblog.netlify.app" class="btn btn-primary">Comic-Blog</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Coming Soon</h5>
+                      <p class="card-text">Working on a full MERN project</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>Do you have any questions?</p>Here's my email: <a href=mailto:vtorresjr878@gmail.com?subject=>vtorresjr878@gmail.com</a></p>
+        <p>Here is link to my <a href="https://docs.google.com/document/d/1JungY-bVyDqGs3ko9udbzIZkHZCgdTz97T6aqmbxpi8/edit?usp=sharing" target="_blank">resume </a> as well. </p>
+        
+      </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+  </body>
+</html>
